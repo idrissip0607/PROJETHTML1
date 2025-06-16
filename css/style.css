@@ -1,0 +1,74 @@
+ :root{
+    --orange: #ff5900;
+    --btn1hvr: #d82b00;
+    --headerbgrd: #003b55;
+    --hovertrans: .7s ease;
+ }
+ 
+ 
+ *{
+    padding: 0;
+    margin: 0;
+
+ }
+
+
+
+ .navbar{
+            background-color: #003b55;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 10px;
+            margin-bottom: 20px;
+
+ }
+ .orange{
+    color: var(--orange);
+ }
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+
+ .logo-image{
+    width: 8rem;
+    
+ }
+
+ .logo-text{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 2rem;
+   
+ }
+
+ .menu{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+ }
+
+ .menu-lien{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 1.1rem;
+ }
+
+ .menu-lien:hover{
+    color: var(--orange);
+    transition: .7s ease;
+ }
+
+ .btn1{
+    background-color: var(--orange);
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+ .btn1:hover{
+    background-color: var(--btn1hvr);
+    color: var(--headerbgrd);
+    transition: var(--hovertrans)
+ }
