@@ -6,12 +6,15 @@
     --blanc: #fff;
     --btnpadding: 10px;
     --btnbdrd: 10px;
+    --abttxtclr: #efefef;
+    --parasize: 1rem;
  }
  
  
  *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 
  }
 
@@ -103,7 +106,7 @@
 }
 
 .hero-txt  a{
-   margin-left: 550px;
+   margin-left: 535px;
    text-decoration: none;
    color: var(--blanc);
    background-color: var(--orange);
@@ -120,4 +123,126 @@
    color: var(--headerbgrd);
    
 }
+
+#Apropos{
+      background-color: var(--abttxtclr);
+      padding-bottom: 40px;
+}
+
+#Apropos h1{
+   margin-left: 500px;
+   margin-bottom: 8px;
+   font-size: 2rem;
+}
+
+#Apropos img{
+      width: 75vh;
+      height: 60vh;
+      margin-right: 100px;
+      margin-left: 30px;
+      border-radius: 30px;
+      
+}
+
+
+.abt-para{
+   font-size: var(--parasize);
+   padding: 50px 20px 50px 100px;
+   color: var(--blanc);
+}
+
+
+.abt-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--headerbgrd);
+      margin-left: 30px;
+      margin-right: 30px;
+      border-radius: 200px;
+      height: 90vh;
+
+}
+
+
+
+
+
+@media(max-width: 768px){
+   .navbar{
+            background-color: #003b55;
+            display: flex;
+            padding: 2px 10px;
+            
+
+ }
+
+ .menu{
+    display: block;
+    list-style: none;
+    margin-top: 5px;
+    
+    
+ }
+
+ .menu-lien{
+   font-size: .8rem;
+ }
+
+  .btn1{
+    background-color:var(--orange);
+    padding: 0 3px;
+    border-radius: 5px;  
+ }
+
+ .logo{
+    display: block;
+    
+ }
+
+ .logo-image{
+    width: 4rem;
+    
+ }
+
+ .logo-text{
+    color: #fff;
+    margin-left: 1px;
+    font-size: 1rem;
+   
+ }
+
+ .hero-txt h2 {
+   color: #fff;
+   text-align: center;
+   font-size: 2rem;
+   margin-bottom: 50px;
+}
+
+.hero-txt p{
+   text-align: center;
+   margin-bottom:70px;
+   font-size: 1rem;
+   color: #fff;
+}
+
+.hero-txt  a{
+   margin-left: 140px;
+   text-decoration: none;
+   color: var(--blanc);
+   background-color: var(--orange);
+   padding: var(--btnpadding);
+   border-radius: var(--btnbdrd);
+   font-weight: bold;
+   
+   
+   
+}
+
+
+
+ }
+
+
+
 
