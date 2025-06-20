@@ -8,6 +8,10 @@
     --btnbdrd: 10px;
     --abttxtclr: #efefef;
     --parasize: 1rem;
+    --h1position: 500px;
+    --h1size: 2rem;
+    --shbgrdc: #006297;
+    --footerbgrdc:#312c2c;
  }
  
  
@@ -120,19 +124,18 @@
 .hero-txt  a:hover{
    background-color: var(--btn1hvr);
    transition: var(--hovertrans);
-   color: var(--headerbgrd);
    
 }
 
 #Apropos{
       background-color: var(--abttxtclr);
-      padding-bottom: 40px;
+      padding-top: 10px;
 }
 
 #Apropos h1{
-   margin-left: 500px;
+   margin-left: var(--h1position);
    margin-bottom: 8px;
-   font-size: 2rem;
+   font-size: var(--h1size);
 }
 
 #Apropos img{
@@ -164,7 +167,116 @@
 
 }
 
+#Services{
+   height: 110vh;
+   margin-bottom: 30px;
+   margin-top: 10px;
+   margin-left: 10px;
+   
+   
+   
+   
+}
 
+#Services h1{
+   margin-left: var(--h1position);
+   font-size: var(--h1size);
+}
+
+#Services a{
+   margin-left: 570px;
+   background-color: var(--headerbgrd);
+   color: var(--blanc);
+   padding: var(--btnpadding);
+   border-radius: var(--btnbdrd);
+   text-decoration: none;
+   font-weight: bold;
+   
+}
+
+#Services a:hover{
+      background-color: var(--shbgrdc);
+      transition: var(--hovertrans);
+}
+
+.srv{
+   list-style: none;
+   
+   
+}
+
+.srv li{
+   width: 300px;
+   float: left;
+   padding-top: 210px;
+   margin-left: 12px;
+   margin-top: 50px;
+   margin-bottom: 60px;
+   
+}
+
+.srv p{
+      font-size: 17px;
+      padding: 10px; 
+      
+      
+}
+
+.srv h4{
+   padding: 0 10px;
+   
+}
+
+
+
+   
+
+.creation{
+   background: url(../images/creation\ site.png) no-repeat top left;
+}
+
+
+.integration{
+   background: url(../images/seo.png) no-repeat top left;
+}
+
+
+.maintenance{
+   background: url(../images/maintenace.png) no-repeat top left;
+}
+
+
+.software{
+   background: url(../images/software\ api.png) no-repeat top left;
+}
+
+#footer{
+   background-color: var(--footerbgrdc);
+   display: flex;
+   justify-content: space-between;
+   color: var(--orange);
+   padding: 20px 50px 20px 20px;
+}
+#footer a{
+   text-decoration: none;
+   color: var(--blanc);
+   line-height: 30px;
+
+}
+#footer ul{
+   list-style: none;
+}
+
+.logo-imageft{
+    width: 5rem;
+    
+ }
+
+ .logo-textft{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 1.5rem;
+   }
 
 
 
