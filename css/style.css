@@ -262,7 +262,7 @@
       padding-left: 20px;
       padding-right: 20px;
       height:auto;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
 }
 
 #Contact h1{
@@ -316,7 +316,7 @@
 .info-contact{
    display: flex;
    flex-direction: column;
-   gap: 100Px;
+   gap: 30Px;
    width: 500px;
    margin-left: 50px;
    
@@ -325,7 +325,7 @@
 .info{
 background-color: var(--blanc);
 margin: 10px;
-padding: 50px;
+padding: 35px;
 width: auto;
 line-height: 40px;
 border-radius: var(--btnbdrd);
@@ -335,6 +335,25 @@ box-shadow: var(--boxshadow);
 .info a{
    text-decoration: none;
    color: var(--footerbgrdc);
+   
+}
+
+.info a:hover{
+   color: var(--orange);
+   transition: .5s ease;
+}
+
+
+.info p{
+      text-align: center;
+      font-size: 1rem;
+}
+
+
+.info h3{
+   text-align: center;
+   margin-bottom: 30px;
+   font-size: 1.5rem;
 }
 
 
@@ -378,6 +397,7 @@ box-shadow: var(--boxshadow);
    color: #fff;
    border: #efefef solid;
    border-radius: 6px;
+   
 }
 
 .submit:hover{
